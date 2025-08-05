@@ -1,0 +1,8 @@
+.dashboard-template {
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+}
+
+.dashboard-template__main {
+  padding-bottom: 40px;
+}

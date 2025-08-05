@@ -1,0 +1,67 @@
+.ong-card {
+  background: var(--bg-secondary);
+  border-radius: 12px;
+  box-shadow: 0 4px 6px var(--shadow);
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.ong-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.ong-card--complete {
+  border: 2px solid #05207f;
+  background: linear-gradient(135deg, #f0fdf4 0%, #ffffff 100%);
+}
+
+[data-theme="dark"] .ong-card--complete {
+  background: linear-gradient(135deg, #280356 0%, #1f2937 100%);
+  border-color: #050015;
+}
+
+.ong-card__image {
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-primary);
+}
+
+.ong-card__image img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+.ong-card__content {
+  padding: 20px;
+}
+
+.ong-card__title {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+.ong-card__description {
+  color: var(--text-secondary);
+  line-height: 1.5;
+  margin-bottom: 16px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.ong-card__progress {
+  margin-bottom: 20px;
+}
+
+.ong-card__actions {
+  display: flex;
+  justify-content: center;
+}
