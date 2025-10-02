@@ -1,17 +1,17 @@
-# 🌱 EcoOng - Plataforma de Doações para ONGs Ambientais
+# EcoOng - Plataforma de Doações para ONGs Ambientais
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 O **EcoOng** é uma aplicação web que conecta usuários a ONGs e projetos ambientais, permitindo doações de forma simples e intuitiva. O objetivo é conscientizar sobre causas ecológicas e simular um processo de contribuição financeira para organizações que trabalham pela preservação do meio ambiente.
 
-## 🎯 Problema que Resolve
+## Problema que Resolve
 
 - **Visibilidade**: Muitas ONGs ambientais têm dificuldade em alcançar potenciais doadores
 - **Transparência**: Falta de clareza sobre o progresso das metas de arrecadação
 - **Acessibilidade**: Processo de doação complexo e pouco intuitivo
 - **Conscientização**: Necessidade de educar sobre causas ambientais importantes
 
-## 🚀 Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 ### Frontend
 
@@ -42,21 +42,21 @@ src/
 └── utils/              # Utilitários
 ```
 
-## 📱 Funcionalidades
+##  Funcionalidades
 
 ### Dashboard
 
-- ✅ Listagem de ONGs em cards organizados em grid
-- ✅ Visualização de progresso das metas de arrecadação
-- ✅ Efeito visual especial para metas atingidas
-- ✅ Design responsivo para diferentes dispositivos
+- Listagem de ONGs em cards organizados em grid
+- Visualização de progresso das metas de arrecadação
+- Efeito visual especial para metas atingidas
+- Design responsivo para diferentes dispositivos
 
 ### Sistema de Doações
 
-- ✅ Formulário simples para inserir valor da doação
-- ✅ Validação de entrada de dados
-- ✅ Atualização em tempo real do progresso das metas
-- ✅ Persistência no localStorage
+- Formulário simples para inserir valor da doação
+- Validação de entrada de dados
+- Atualização em tempo real do progresso das metas
+- Persistência no localStorage
 
 ### ONGs Cadastradas
 
@@ -65,7 +65,7 @@ src/
 - **SOS Mata Atlântica** - Preservação da Mata Atlântica
 - **Instituto Socioambiental** - Direitos socioambientais
 
-## 🎨 Design e Usabilidade
+##  Design e Usabilidade
 
 ### Responsividade
 
@@ -80,11 +80,11 @@ src/
 - Navegação intuitiva
 - Feedback visual para interações
 
-## 🌐 Demo Online
+##  Demo Online
 
 **Acesse a aplicação:** [https://eco-ongapp.vercel.app/](https://eco-ongapp.vercel.app/)
 
-## 🛠️ Como Executar
+##  Como Executar
 
 ### Pré-requisitos
 
@@ -116,7 +116,7 @@ npm run preview  # Preview do build
 npm run lint     # Verificação de código
 ```
 
-## 🔄 Fluxo da Aplicação
+##  Fluxo da Aplicação
 
 1. **Carregamento**: Aplicação carrega ONGs do localStorage
 2. **Visualização**: Usuário vê cards das ONGs com progresso das metas
@@ -125,7 +125,7 @@ npm run lint     # Verificação de código
 5. **Confirmação**: Valor é adicionado à meta da ONG
 6. **Atualização**: Dados são salvos e usuário retorna ao dashboard
 
-## 🚀 Melhorias Futuras
+##  Melhorias Futuras
 
 ### Funcionalidades
 
@@ -151,15 +151,3 @@ npm run lint     # Verificação de código
 - [ ] Animações mais elaboradas
 - [ ] Gráficos de progresso avançados
 - [ ] Tema customizável
-
-## 📄 Licença
-
-Este projeto foi desenvolvido para fins educacionais como parte de um MVP (Minimum Viable Product).
-
-## 👨‍💻 Desenvolvedor
-
-Desenvolvido com 💚 para conectar pessoas às causas ambientais.
-
----
-
-**EcoOng** - Juntos por um planeta mais verde! 🌍
